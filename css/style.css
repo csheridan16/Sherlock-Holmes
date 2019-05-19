@@ -1,0 +1,492 @@
+/*-----------animations------------*/
+
+
+
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+/* Grow Rotate */
+.hvr-grow-rotate {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
+  -webkit-transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
+}
+
+
+
+
+/*---------backgrounds--------------*/
+
+
+.silverscreen{
+    background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/silverscreen-background.png");}
+
+.house{
+    background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/221b-background.png");}
+
+
+.homepage{
+    background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/homebackground-variation.png");}
+
+.characters{
+    background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/characters-main-page.png");}
+}
+
+
+
+
+/*---------TYPOGRAPHY--------------*/
+
+
+@font-face
+{font-family: meynetextur;
+src:url ("meyne_textur.ttf");}
+
+@font-face
+{font-family: SignPainter;
+src:url ("SignPainter HouseScript Regular.ttf");}
+
+
+
+
+
+h1{font-family: 'meynetextur';
+   font-weight: 300em;
+   color: #000000; 
+   font-size: 112px;
+   text-align: center;    
+}
+
+h2{font-family: 'meynetextur';
+   font-weight: 800em;
+   color: #000000; 
+   font-size: 42px;
+   text-align: center;    
+}
+
+h3{font-family: "American Typewriter", serif;
+   color: whitesmoke; 
+   font-size: 18px;
+   text-align: center;}
+
+h4{font-family: "SignPainter", serif;
+   color: #000000; 
+   font-size: 100px;
+   text-align: center;}
+
+h5{font-family: "SignPainter", serif;
+   color: #000000; 
+   font-size: 70px;
+   text-align: center;}
+
+nav{font-family: 'meynetextur';
+   font-weight: 800em;
+   color: #000000; 
+   font-size: 71px;
+   text-align: center;    
+}
+
+
+p{font-family: "American Typewriter", serif;
+   font-weight: 800em;
+   color: #000000; 
+   font-size: 18px;
+   text-align: center;    
+}
+
+
+/*----------------------------------------------HOME page------------------------------------------------*/
+/*----------GRID header-------------*/
+
+.grid-header {
+  display: grid;
+  grid-template-columns: 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px;
+  grid-template-rows: 73px 73px 73px 73px 73px 73px 73px 73px;   
+  padding: 10px;
+}
+
+.grid-item1 {
+  grid-column-start: 14;
+  grid-column-end: 15;
+  grid-row-start: 1;
+  grid-row-end: 2;  
+}
+
+
+.grid-item2 {
+  grid-column-start: 7;
+  grid-column-end: 21;
+  grid-row-start: 1;
+  grid-row-end: 3;  
+}
+
+.grid-item3 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 6;  
+}
+
+.grid-item4 {
+  grid-column-start: 10;
+  grid-column-end: 11;
+  grid-row-start: 5;
+  grid-row-end: 6;  
+}
+
+.grid-item5 {
+  grid-column-start: 17;
+  grid-column-end: 21;
+  grid-row-start: 5;
+  grid-row-end: 6;  
+}
+
+.grid-item6 {
+  grid-column-start: 2;
+  grid-column-end: 21;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  padding-top: 30px;    
+}
+
+.grid-item7 {    
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 10;
+  grid-row-end: 9;  
+}
+
+
+
+/*----------GRID header-------------*/
+
+.grid-body {
+  display: grid;
+  grid-template-columns: 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px;
+  grid-template-rows: 88px 88px 88px 88px 88px 88px 88px 88px 88px 88px 88px 88px 88px ;   
+  padding: 10px;
+}
+
+.intro1{    
+  grid-column-start: 2;
+  grid-column-end: 11;
+  grid-row-start: 2;
+  grid-row-end: 3; 
+  z-index: 2;    
+}
+
+.intro2{    
+  grid-column-start: 2;
+  grid-column-end: 11;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  padding-top: 30px;    
+  z-index: 2;    
+}
+
+.intro3{    
+  grid-column-start: 12;
+  grid-column-end: 22;
+  grid-row-start: 5;
+  grid-row-end: 7;
+  z-index: 1; 
+  padding-left: 12px;    
+}
+
+.sirarthur{    
+  grid-column-start: 15;
+  grid-column-end: 15;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  z-index: 2;    
+ }
+
+
+.map{
+  padding-right: 10px;    
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  z-index: 4;    
+ }
+
+div#footertext{padding-top: 10px;
+               padding-bottom: 10px;
+               background-color: #212121;}
+
+
+/*----------------------------------------------221b------------------------------------------------*/
+
+/*----------GRID 221b-------------*/
+
+
+
+.grid-221b {
+  display: grid;
+  grid-template-columns: 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px;
+  grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;   
+  padding: 10px;
+}
+
+
+.title221b{    
+  grid-column-start: 10;
+  grid-column-end: 21;
+  grid-row-start: 1;
+  grid-row-end: 2;     
+}
+
+.intro221b{    
+  grid-column-start: 9;
+  grid-column-end: 22;
+  grid-row-start: 8;
+  grid-row-end: 12; 
+  z-index: 2;    
+}
+
+.door{    
+  grid-column-start: ;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2; 
+  z-index: 2;    
+}
+
+.layout{    
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 15;
+  grid-row-end: 16; 
+  z-index: 1;    
+}
+
+
+.museum{    
+  grid-column-start: 1;
+  grid-column-end: 18;
+  grid-row-start: 36;
+  grid-row-end: 36; 
+  z-index: 1;    
+}
+
+.museumtext{    
+  grid-column-start: 3;
+  grid-column-end: 21;
+  grid-row-start: 44;
+  grid-row-end: 49; 
+  z-index: 1;    
+}
+
+.photoofmuseum{    
+  grid-column-start: 10;
+  grid-column-end: 10;
+  grid-row-start: 54;
+  grid-row-end: 59; 
+  z-index: 1;    
+}
+
+.linktomuseum{    
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 53;
+  grid-row-end: 55; 
+  z-index: 1;    
+}
+
+
+/*----------------------------------------------characters------------------------------------------------*/
+
+
+.grid-characters{display: grid;
+                 grid-template-columns: 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px;
+                 grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;   
+                 padding: 5px;}
+
+.heroes{    
+  grid-column-start: 14;
+  grid-column-end: 15;
+  grid-row-start: 1;
+  grid-row-end: 1; 
+  z-index: 1;    
+}
+
+.sherlock{    
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1; 
+  z-index: 1;    
+}
+
+.watson{    
+  grid-column-start: 13;
+  grid-column-end: 14;
+  grid-row-start: 8;
+  grid-row-end: 9; 
+  z-index: 1;    
+}
+
+
+.villians{    
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 27;
+  grid-row-end: 28; 
+  z-index: 1;    
+}
+
+.moriarty{    
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 35;
+  grid-row-end: 35; 
+  z-index: 1;    
+}
+
+.adler{    
+  grid-column-start: 14;
+  grid-column-end: 14;
+  grid-row-start: 29;
+  grid-row-end: 30; 
+  z-index: 1;    
+}
+
+
+/*----------------------------------------------silverscreen------------------------------------------------*/
+
+.silverscreengrid{display: grid;
+                 grid-template-columns: 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px;
+                 grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;   
+                 padding: 5px;}
+
+
+.screentitle{    
+  grid-column-start: 2;
+  grid-column-end: 10;
+  grid-row-start: 1;   
+}
+
+.screenintro{    
+  grid-column-start: 10;
+  grid-column-end: 22;
+  grid-row-start: 5;   
+}
+
+
+.movie1{    
+  grid-column-start: 1;
+  grid-column-end: 10;
+  grid-row-start: 10;
+  transform: rotate(-6deg);    
+}
+
+.movie1text{    
+  grid-column-start: 2;
+  grid-column-end: 11;
+  grid-row-start: 17;   
+}
+
+.movie1pic{    
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 23;   
+}
+
+.movie2{    
+  grid-column-start: 12;
+  grid-column-end: 23;
+  grid-row-start: 10;
+  transform: rotate(7deg);    
+}
+
+.movie2text{    
+  grid-column-start: 13;
+  grid-column-end: 21;
+  grid-row-start: 18;   
+}
+
+.movie2pic{    
+  grid-column-start: 15;
+  grid-column-end: 15;
+  grid-row-start: 22;   
+}
+
+.movie3{    
+  grid-column-start: 2;
+  grid-column-end: 10;
+  grid-row-start: 33;
+  transform: rotate(4deg);    
+}
+
+.movie3text{    
+  grid-column-start: 3;
+  grid-column-end: 11;
+  grid-row-start: 40;   
+}
+
+.movie3pic{    
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 47;   
+}
+
+.movie4{    
+  grid-column-start: 12;
+  grid-column-end: 22;
+  grid-row-start: 34;
+  transform: rotate(-2deg);    
+}
+
+.movie4text{    
+  grid-column-start: 13;
+  grid-column-end: 21;
+  grid-row-start: 40;   
+}
+
+.movie4pic{    
+  grid-column-start: 15;
+  grid-column-end: 15;
+  grid-row-start: 45;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
