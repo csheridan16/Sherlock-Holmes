@@ -1,4 +1,5 @@
 
+
 /*-----------animations------------*/
 
 /* Curl Top Left */
@@ -108,7 +109,8 @@
 /*---------backgrounds--------------*/
 
 .sherlockbackground{
-    background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/sherlock-page.png");}
+    background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/sherlock-page.png");
+}
 
 .watsonbackground{
     background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/watson-page.png");}
@@ -125,7 +127,9 @@
     background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/silverscreen-background.png");}
 
 .house{
-    background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/221b-background.png");}
+    background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/221b-background.png");
+
+}
 
 
 .homepage{
@@ -206,6 +210,7 @@ p{font-family: "American Typewriter", serif;
   grid-template-columns: 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px 57px;
   grid-template-rows: 73px 73px 73px 73px 73px 73px 73px 73px;   
   padding: 10px;
+    
 }
 
 .grid-item1 {
