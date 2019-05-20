@@ -109,25 +109,25 @@
 /*---------backgrounds--------------*/
 
 .sherlockbackground{
-    background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/sherlock-page.png");
+    background-image: url("sherlock-page.png");
 }
 
 .watsonbackground{
-    background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/watson-page.png");}
+    background-image: url("watson-page.png");}
 
 .moriartybackground{
-    background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/moriarty-background.png");}
+    background-image: url("moriarty-background.png");}
 
 .adlerbackground{
-    background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/adler-background.png");}
+    background-image: url("adler-background.png");}
 
 
 
 .silverscreen{
-    background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/silverscreen-background.png");}
+    background-image: url("silverscreen-background.png");}
 
 .house{
-    background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/221b-background.png");
+    background-image: url("221b-background.png");
 
 }
 
@@ -136,7 +136,7 @@
     background-image: url("homebackground-variation.png");}
 
 .characters{
-    background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/characters-main-page.png");}
+    background-image: url("characters-main-page.png");}
 }
 
 
