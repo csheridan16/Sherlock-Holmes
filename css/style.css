@@ -132,12 +132,11 @@
 }
 
 
-.homepage{
-<<<<<<< HEAD
-    background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/homebackground-variation.png");}
-=======
-    background-image: url("images/homebackground-variation.png");}
->>>>>>> aca769aa699993694b095881a600e06e4c5e5335
+
+.homepage{background-image: url("https://raw.githubusercontent.com/Sherlock-Holmes/blob/gh-pages/images/homebackground-variation.png");
+}
+
+
 
 .characters{
     background-image: url("file:///Users/macbook/Documents/GitHub/Sherlock-Holmes/images/characters-main-page.png");}
